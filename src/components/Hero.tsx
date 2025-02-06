@@ -12,7 +12,7 @@ const Hero = () => {
         </div>
         <div>
           <h1 className="hero__container__span__h1"> Hola, Soy <span className="hero__container__span">Cristian</span></h1>
-          <p className="hero__container__paragraph">Desarrollador de Aplicaciones Web <br className="hero__container__paragraph__br" /> y Diseñador de Interfaces.</p>
+          <p className="hero__container__paragraph">Desarrollador de Aplicaciones Web con AI integrada <br className="hero__container__paragraph__br" /> y Diseñador de Interfaces.</p>
         </div>
       </div>
       <ComputersCanvas/>

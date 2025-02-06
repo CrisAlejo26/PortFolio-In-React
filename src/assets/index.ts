@@ -23,17 +23,25 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import ai from './ai.jpg'
+import autofillai from './autofillai.png'
+import calicer from './calicer.png'
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import cardioins from './cardioins.png'
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import gina from './gina.jpg'
+import sebastian from './sebastian.jpg'
+import alejandro from './alejandro.jpg'
 
 export {
+  gina, 
+  sebastian, 
+  alejandro,
   java,
   python,
   logoNegativo,
@@ -66,4 +74,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  ai,
+  calicer,
+  cardioins,
+  autofillai
 };

@@ -40,7 +40,7 @@ const About = () => {
         <h2 className="aboutHeadText">Descripción.</h2>
       </motion.div>
       <motion.p className="aboutHead" variants={fadeIn("", "", 0.1, 1)}>
-      Soy un desarrollador web con más de 1 año de experiencia en el uso de JavaScript, TypeScript, React, Sass, CSS, Redux, Hooks, Bootstrap, Material UI, Git y GitHub. Me apasiona crear aplicaciones web dinámicas, responsivas y accesibles que cumplan con los estándares de calidad y las necesidades de los usuarios. Tengo habilidades para trabajar en equipo, resolver problemas y aprender nuevas tecnologías.
+      Soy un desarrollador web con 3 años de experiencia en el uso de JavaScript, TypeScript, React, Sass, CSS, Redux, Hooks, Bootstrap, Material UI, Git y GitHub. Me apasiona crear aplicaciones web dinámicas, responsivas y accesibles que cumplan con los estándares de calidad y las necesidades de los usuarios. He trabajado en diversos proyectos implementando funcionalidades complejas como la integración de mapas en aplicaciones web, inicios de sesión, manejo de permisos por usuarios y roles, administración de bases de datos relacionales, pagos con criptomonedas (Bitcoin) y pagos con tarjeta, entre otras implementaciones.
       </motion.p>
       <div className="aboutServices">
         {services.map((service, index) => (
