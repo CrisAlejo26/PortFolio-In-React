@@ -30,9 +30,6 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}: 
         <div className="projectCard__div">
           <img src={image} alt={name} className="projectCard__div__img"/>
           <div className="projectCard__div__div">
-            <div onClick={() => window.open(source_code_link, "_blank")} className="projectCard__div__div__onclick">
-              <img src={github} alt="github" className="projectCard__div__div__onclick__img" />
-            </div>
           </div>
         </div>
         <div className="projectCard__div__work">

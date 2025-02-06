@@ -7,6 +7,7 @@ import {
     backend,
     creator,
     web,
+    ai,
     javascript,
     typescript,
     html,
@@ -19,8 +20,14 @@ import {
     git,
     figma,
     carrent,
+    autofillai,
     jobit,
     tripguide,
+    calicer,
+    cardioins,
+    gina,
+    alejandro,
+    sebastian
 } from "../assets";
 
 export const navLinks = [
@@ -42,6 +49,10 @@ const services = [
     {
         title: "Desarrollador Web",
         icon: web,
+    },
+    {
+        title: "Integración de inteligencia artificial",
+        icon: ai,
     },
     {
         title: "Desarrollador BackEnd",
@@ -114,73 +125,129 @@ const technologies = [
 
 const experiences = [
     {
-        title: "Desarrollador FrontEnd",
-        company_name: "Cristian.code",
+        title: "Desarrollador FullStack",
+        company_name: "Training and Educational Services Consultancy Group S. L.",
         icon: logoNegativo,
         iconBg: "#383E56",
-        date: "Enero 2023 - Presente",
+        date: "Agosto 2024 - Enero 2025",
         points: [
-            "Crear componentes en React para la vista de la página.",
-            "Configurar Redux como centro principal para el manejo de estados globales en toda la aplicación.",
-            "Plantear un diseño de interfaz acorde a las necesidades del sistema y dar estilos con Sass, generando variables reutilizables y usando librerias como Material UI.",
-            "Usar los hooks useState y useEffect para dar un uso eficiente a cada estado o variable.",
-        ],
-    },
-    {
-        title: "Desarrollador FrontEnd",
-        company_name: "Cristian.code",
-        icon: logoPositivo,
-        iconBg: "#E6DEDD",
-        date: "Octubre 2022 - Diciembre 2022",
-        points: [
-            "Desarrollar componentes en React para una administrador de veterinaria.",
-            "Usar useContext para darle un orden al manejo de estados de la aplicación.",
-            "Implementar funcionalizades que permitan eliminar, actualizar o crear una nueva cita para la veterinaria.",
-            "Mostrar elementos o componentes dependiendo de las opciones que elija el administrador.",
-        ],
-    },
-    {
-        title: "Desarrollador FrontEnd",
-        company_name: "Cristian.code",
-        icon: logoNegativo,
-        iconBg: "#383E56",
-        date: "Agosto 2022 - Octubre 2022",
-        points: [
-            "Diseñar una interfaz de consulta.",
-            "Crear componentes de React para la vista de la pagina.",
-            "Usar custom hooks para validar los formularios.",
-            "Mostrar elementos o componentes dependiendo de las opciones que elija el administrador.",
-            "Consultar una Api.",
-        ],
-    },
-    {
-        title: "Desarrollador FrontEnd",
-        company_name: "Cristian.code",
-        icon: logoPositivo,
-        iconBg: "#E6DEDD",
-        date: "Junio 2022 - Agosto 2022",
-        points: [
-            "Crear interfaz de inicio para un generador de presupuestos.",
-            "Programar validaciones para evitar datos nulos o undefined.",
-            "Programar la pagina para que sea responsive.",
-            "Crear componentes dinamicos en React.",
+            "Desarrollé una aplicación con inteligencia artificial integrada que llenaba formularios automáticamente a partir de documentos PDF.",
+            "Creé un panel de administración para gestionar los datos extraídos y su edición antes de generar el PDF final.",
+            "Implementé un editor de texto personalizado donde los usuarios podían modificar los datos antes de su envío.",
+            "Desarrollé el sistema utilizando Electron, NestJS, React, Llama 3 (IA), MySQL y Docker.",
         ],
     },
     {
         title: "Desarrollador FullStack",
-        company_name: "Cristian.code",
+        company_name: "CALICER",
+        icon: logoPositivo,
+        iconBg: "#E6DEDD",
+        date: "Mayo 2024 - Agosto 2024",
+        points: [
+            "Implementé mejoras en el sistema de administración de hoteles, permitiendo reservas y pagos en línea.",
+            "Desarrollé funcionalidades para el panel administrativo, facilitando la gestión de reservas y exportación de facturas.",
+            "Trabajé con Laravel, PHP, JavaScript, MySQL y Bootstrap para el desarrollo del backend y frontend.",
+        ],
+    },
+    {
+        title: "Desarrollador FullStack",
+        company_name: "Autoescuela Rondasur",
         icon: logoNegativo,
         iconBg: "#383E56",
+        date: "Junio 2024",
+        points: [
+            "Configuré y desplegué una plataforma de aprendizaje en Moodle en un VPS de Ionos.",
+            "Migré la base de datos existente desde otro servidor y configuré el dominio de la plataforma.",
+            "Realicé ajustes y personalización de la plataforma para adaptarla a las necesidades de la empresa.",
+        ],
+    },
+    {
+        title: "Desarrollador FullStack",
+        company_name: "Freelancer - Autónomo",
+        icon: logoNegativo,
+        iconBg: "#383E56",
+        date: "Febrero 2024",
+        points: [
+            "Diseñé una aplicación Web relacionada con el manejo de expedientes de justicia",
+            "El proyecto contenía varios módulos en los cuales se podian gestionar diferentes tipos de expedientes incluyendo sus respectivos documentos.",
+            "Trabajé con Laravel, PHP, JavaScript, MySQL y Bootstrap para el desarrollo del backend y frontend.",
+            
+        ],
+    },
+    {
+        title: "Desarrollador FullStack",
+        company_name: "FUTUROTEL GROUP (Neofranquicias)",
+        icon: logoNegativo,
+        iconBg: "#383E56",
+        date: "Enero 2024 - Mayo 2024",
+        points: [
+            "Implementé mejoras en el sistema de administración de hoteles, permitiendo reservas y pagos en línea.",
+            "Desarrollé funcionalidades para el panel administrativo, facilitando la gestión de reservas y exportación de facturas.",
+            "Trabajé con Laravel, PHP, JavaScript, MySQL y Bootstrap para el desarrollo del backend y frontend.",
+            "Optimicé el rendimiento y la seguridad del sistema a través de mejoras en la arquitectura del software.",
+            
+        ],
+    },
+    {
+        title: "Desarrollador FullStack",
+        company_name: "WEEX CAPITAL",
+        icon: logoPositivo,
+        iconBg: "#E6DEDD",
+        date: "Mayo 2023 - Diciembre 2023",
+        points: [
+            "Desarrollé un módulo para la administración de movimientos de cajeros de criptomonedas en toda España.",
+            "Implementé gráficos y métricas para visualizar los movimientos en tiempo real.",
+            "Administré y optimicé páginas web mejorando el SEO y el rendimiento en Google.",
+            "Trabajé con PHP, JavaScript, Bootstrap, MySQL y servidores Linux para la gestión de la infraestructura del sistema.",
+        ],
+    },
+    
+    {
+        title: "Desarrollador FullStack",
+        company_name: "Freelancer - Autónomo",
+        icon: logoPositivo,
+        iconBg: "#E6DEDD",
+        date: "Enero 2023 - Febrero 2023",
+        points: [
+            "Desarrollé una aplicación web para administrar un restaurante o bar.",
+            "La aplicación se encargaba principalmente de que el cliente desde la mesa realizaba el pedido, el pedido le llegaba a la cocina y una vez hecho el pago, la comida se le traia a la mesa al cliente.",
+        ],
+    },
+    {
+        title: "Desarrollador FullStack",
+        company_name: "Freelancer - Autónomo",
+        icon: logoPositivo,
+        iconBg: "#E6DEDD",
+        date: "OCtubre 2022 - Diciembre 2022",
+        points: [
+            "Desarrollé una plataforma web para administrar citas de una veterinaria",
+            "La plataforma se encargaba de agendar citas, modificarlas o eliminarlas, permitiendo tener un control de pacientes.",
+        ],
+    },
+    {
+        title: "Desarrollador FullStack",
+        company_name: "Freelancer - Autónomo",
+        icon: logoPositivo,
+        iconBg: "#E6DEDD",
+        date: "Agosto 2022 - Octubre 2022",
+        points: [
+            "Desarrollé un sistema en el cual se podian ver o consultar el costo/beneficio de las criptomonedas en tiempo real.",
+            "Realicé integraciones con APIs externas para pagos en criptomonedas y servicios financieros.",
+        ],
+    },
+    {
+        title: "Desarrollador FullStack",
+        company_name: "Freelancer - Autónomo",
+        icon: logoPositivo,
+        iconBg: "#E6DEDD",
         date: "Marzo 2022 - Junio 2022",
         points: [
-            "Crear interfaces para la vista del comprador de la página.",
-            "Usar bootstrap para darle estilos rapidamente a cada una de las vistas.",
-            "Crear conexión entre Node.js y MongoDB para mantener los datos.",
-            "Usar Express para la creación de las Apis de consulta.",
-            "Trabajo en equipo junto con los otros desarrolladores."
+            "Desarrollé un sistema de presupuestos y cotizaciones de automóviles dependiento del modulo y marca",
+            "Implementé sistemas de autenticación y gestión de usuarios con JWT y OAuth.",
         ],
-    }
+    },
 ];
+
 
 const testimonials = [
     {
@@ -189,7 +256,7 @@ const testimonials = [
         name: "Gina Salazar",
         designation: "Coordinadora Administrativa",
         company: "Uno27",
-        image: "https://scontent.frmu1-1.fna.fbcdn.net/v/t1.6435-9/117785827_10157568962161724_3870389512257947857_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=rA4gY7xYMY4AX9iYDSQ&_nc_ht=scontent.frmu1-1.fna&oh=00_AfCSDtAM3ajSPbKGyVIp1J9MIfoRzkP6JuTnOPEO_8g21Q&oe=6465E895",
+        image: gina,
     },
     {
         testimonial:
@@ -197,7 +264,7 @@ const testimonials = [
         name: "Alejandro Ramirez",
         designation: "Personero Municipal",
         company: "la Alcaldia",
-        image: "https://scontent.frmu1-1.fna.fbcdn.net/v/t31.18172-8/272291_112865415476259_5629922_o.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=CqYFUUjDqiMAX_yTk8C&_nc_ht=scontent.frmu1-1.fna&oh=00_AfAZX50t5BHA1WYYQohiaBVqMjJdCWSuURadPnrZ-9s_MQ&oe=6465D3BC",
+        image: alejandro
     },
     {
         testimonial:
@@ -205,11 +272,86 @@ const testimonials = [
         name: "Sebastián Delgado",
         designation: "Jefe en Sitemas",
         company: "Cinde",
-        image: "https://scontent.frmu1-1.fna.fbcdn.net/v/t39.30808-6/268390774_10158756313120945_1637690823303362006_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=zUwDKvH_noIAX8xkdxI&_nc_oc=AQl-dqARMILkvKdmNr4hAEsZkVVx6uA1XWL8d31Zpps5NvuSwNnA6R598zqJVisQZwA&_nc_ht=scontent.frmu1-1.fna&oh=00_AfDN7O4TrmDGE13DtLhGRlSKddvNkzJiSlo7pRe-gcOZuQ&oe=6444490F",
+        image: sebastian
     },
 ];
 
 const projects = [
+    {
+        name: "AutoFillAI",
+        description:
+            "Es una aplicación con inteligencia artificial integrada, se encarga de completar campos en formularios de forma automática.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "nestjs",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "AI",
+                color: "blue-text-gradient",
+            },
+        ],
+        image: autofillai,
+        source_code_link: "https://github.com/CrisAlejo26/cotizador-criptomonedas",
+    },
+    {
+        name: "CardioIns",
+        description:
+            "Es una aplicación dedicada a la administración de diferentes cursos de primeros auxilios, tambien contiene módulos de facturación, pagos e integración con google calendar.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "nestjs",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "AI",
+                color: "blue-text-gradient",
+            },
+        ],
+        image: cardioins,
+        source_code_link: "https://github.com/CrisAlejo26/cotizador-criptomonedas",
+    },
+    {
+        name: "Calicer",
+        description:
+            "Es una aplicación de auditorias, la cual administra los pasos de una auditoria y otorga tanto al auditor como a los usuarios una interfaz en donde se pueden informar de los requerimientos, resultados y el proceso.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "custom hook",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "api",
+                color: "blue-text-gradient",
+            },
+        ],
+        image: calicer,
+        source_code_link: "https://github.com/CrisAlejo26/cotizador-criptomonedas",
+    },
     {
         name: "Cotizador Criptomonedas",
         description:
